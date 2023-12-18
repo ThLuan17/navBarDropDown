@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootStrap/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="navbar_float_memu">
+            <div class="float_menu_container p-3">
+                <div class="float_menu_toggle">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="float_memu_seacrh my-2">
+                    <input type="text" placeholder="Tìm kiễm..." class="search_input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="float_memu_box">
+                    <ul class="menu_box_list p-0">
+                        <li class="float_list_item py-3">
+                            <a href="#" class="float_list_item_link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="float_list_item py-3">
+                            <a href="#" class="float_list_item_link d-flex justify-content-between">
+                                Project
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                            <ul class="float_menu_dropdown ps-1">
+                                <li class="float_menu_dropdown_item py-3">
+                                    <a href="#" class="float_menu_dropdown_link d-flex justify-content-between">
+                                        Aslantic
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="float_menu_dropdown_item_child">
+                                        <li class="float_menu_dropdown_item_child_item py-3">
+                                            <a href="#" class="item_child_link">King</a>
+                                        </li>
+                                        <li class="float_menu_dropdown_item_child_item py-3">
+                                            <a href="#" class="item_child_link">Queen</a>
+                                        </li>
+                                        <li class="float_menu_dropdown_item_child_item py-3">
+                                            <a href="#" class="item_child_link">Jack</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="float_menu_dropdown_item py-3">
+                                    <a href="#" class="float_menu_dropdown_link">Justic League</a>
+                                </li>
+                                <li class="float_menu_dropdown_item py-3">
+                                    <a href="#" class="float_menu_dropdown_link d-flex justify-content-between">
+                                        Avengers Town
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="float_menu_dropdown_item_child">
+                                        <li class="float_menu_dropdown_item_child_item py-3">
+                                            <a href="#" class="item_child_link">Heading</a>
+                                        </li>
+                                        <li class="float_menu_dropdown_item_child_item py-3">
+                                            <a href="#" class="item_child_link">Body</a>
+                                        </li>
+                                        <li class="float_menu_dropdown_item_child_item py-3">
+                                            <a href="#" class="item_child_link">Footer</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="float_list_item py-3">
+                            <a href="#" class="float_list_item_link">
+                                Servises
+                            </a>
+                        </li>
+                        <li class="float_list_item py-3">
+                            <a href="#" class="float_list_item_link d-flex justify-content-between">
+                                Contact
+                                <i class="fa-solid fa-plus"></i>
+                            </a>
+                            <ul class="float_menu_dropdown ps-1">
+                                <li class="float_menu_dropdown_item py-3">
+                                    <a href="#" class="float_menu_dropdown_link">Email</a>
+                                </li>
+                                <li class="float_menu_dropdown_item py-3">
+                                    <a href="#" class="float_menu_dropdown_link">Phone</a>
+                                </li>
+                                <li class="float_menu_dropdown_item py-3">
+                                    <a href="#" class="float_menu_dropdown_link">Zalo</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="navbar_brand">
+                    <a href="#" class="brand_link">
+                        <svg x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                            <path d="M4.781 6.375C4.515 6.044 4.067 5.916 3.669 6.057 3.268 6.197 3 6.575 3 7v18c0 .232.081.457.228.636l14 17C17.418 42.866 17.701 43 18 43h14c.384 0 .735-.221.901-.566.167-.347.12-.758-.121-1.059L4.781 6.375zM46.336 7.059c-.396-.146-.842-.02-1.11.309l-18 22c-.245.299-.295.712-.13 1.062C27.262 30.777 27.614 31 28 31h14c.304 0 .591-.138.781-.375l4-5C46.923 25.447 47 25.228 47 25V8C47 7.577 46.734 7.2 46.336 7.059z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="navbar_toggle">
+                    <button class="toggle_btn">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                </div>
+                <div class="navbar_menu ms-auto my-3">
+                    <ul class="menu_list d-flex p-0">
+                        <li class="list_item px-4">
+                            <a class="item_link" href="#" class="item_link">Home</a>
+                        </li>
+                        <li class="list_item px-4">
+                            <a class="item_link" href="#" class="item_link">About</a>
+                        </li>
+                        <li class="list_item px-4">
+                            <a class="item_link" href="#" class="item_link">
+                                Project
+                            <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="item_dropdown">
+                                <li class="dropdown_item">
+                                    <a href="#" class="dropdown_item_link">Content</a>
+                                </li>
+                                <li class="dropdown_item">
+                                    <a href="#" class="dropdown_item_link">Content</a>
+                                </li>
+                                <li class="dropdown_item">
+                                    <a href="#" class="dropdown_item_link">Content</a>
+                                </li>
+                                <li class="dropdown_item">
+                                    <a href="#" class="dropdown_item_link">Content</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_item px-4">
+                            <a class="item_link" href="#" class="item_link">Servise</a>
+                        </li>
+                        <li class="list_item px-4">
+                            <a class="item_link" href="#" class="item_link">
+                                Contact
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="item_dropdown">
+                                <li class="dropdown_item">
+                                    <a href="#" class="dropdown_item_link">Content</a>
+                                </li>
+                                <li class="dropdown_item">
+                                    <a href="#" class="dropdown_item_link">Content</a>
+                                </li>
+                                <li class="dropdown_item">
+                                    <a href="#" class="dropdown_item_link">Content</a>
+                                </li>
+                                <li class="dropdown_item">
+                                    <a href="#" class="dropdown_item_link">Content</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const closeBtn = document.querySelector('.float_menu_toggle')
+        const itemLink = document.querySelectorAll('.float_list_item_link')
+        const dropdownItem = document.querySelectorAll('.float_menu_dropdown_link')
+        
+        toggleBtn.addEventListener('click', function () {
+            const navBarFloat = document.querySelector('.navbar_float_memu')
+            navBarFloat.classList.add('float_memu_active')
+        })
+
+        closeBtn.addEventListener('click', function () {
+            const navBarFloat = document.querySelector('.navbar_float_memu.float_memu_active')
+            navBarFloat.classList.remove('float_memu_active')
+        })
+
+        
+        itemLink.forEach((item, index) => {
+            item.addEventListener('click', function () {
+                const father = item.parentElement
+                const children = father.children
+                if(children[1]) {
+                    children[1].classList.toggle('float_menu_dropdown_active')
+                document.querySelectorAll('.float_menu_dropdown_item_child.float_menu_dropdown_active').forEach((item, index) => {
+                    item.classList.remove('float_menu_dropdown_active')
+                }) 
+                }
+                
+            })
+        })
+
+        dropdownItem.forEach((item, index) => {
+            item.addEventListener('click', function () {
+                const father = item.parentElement
+                const children = father.children
+                if(children[1]) {
+                    children[1].classList.toggle('float_menu_dropdown_active')
+                }
+            })
+        })
+
+
+    </script>
+</body>
+</html>

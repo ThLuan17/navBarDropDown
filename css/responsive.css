@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    .navbar_menu {
+        display: none;
+    }
+
+    .navbar_toggle {
+        display: block;
+    }
+}
